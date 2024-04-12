@@ -331,8 +331,8 @@ body {
 
 .questions__padding{
     padding: 0;
-    transition: padding .3s;
-    border: 1px solid #CF69FF;
+    transition: padding .2s;
+    border: 2px solid #CF69FF;
     border-radius: 6px;
 }
 
