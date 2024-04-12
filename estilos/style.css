@@ -63,15 +63,16 @@ body {
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: max-content;
-    gap: 2em;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 20px 30px;
-   
-
+    gap: 0.1em;
+}
+.nav__items:hover {
+    background-color:rgba(238, 0, 255, 0.455) ;
 }
 
 .nav__items {
     list-style: none;
+     background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px 30px;
 }
 
 .nav__links {
@@ -165,7 +166,7 @@ body {
 
 .knowledge {
     background-color: #e5e5f7;
-    opacity: 0.8;
+    opacity: 0.9;
     background-image: radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
     background-size: 20px 20px;
     background-position: 0 0, 10px 10px;
