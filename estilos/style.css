@@ -334,6 +334,8 @@ body {
     transition: padding .2s;
     border: 2px solid #CF69FF;
     border-radius: 6px;
+    height: 120px;
+    overflow: hidden;
 }
 
 .questions__padding--add{
@@ -342,7 +344,6 @@ body {
 
 .questions__answer{
     padding: 0 30px 0;
-    overflow: hidden;
 }
 
 .questions__title{
